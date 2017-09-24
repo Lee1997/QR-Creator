@@ -2,6 +2,8 @@ In my job as a labourer for the Maynooth Student's Union bar, we had a night sim
 
 Our spin on it was that we would take a list of animals from <a>https://a-z-animals.com/animals/</a> and make QR codes for each animal using the QR Code creator website <a>http://www.3gvision.com/CreateBarcodes.html</a>. I was asked to do this all manually and it was estimated to take a lot of hours, but I created a content script for both these website to do my work for me.
 
+<img src="http://encode.i-nigma.com/QRCode/img.php?d=You%20are%20a%20tiger%2C%20go%20find%20another%20tiger!&c=&s=4"/>
+
 I first printed all the animals names to consoles, and copy+pasted these into Sublime Text, and used that to clean it up(remove latin names, remove brackets) and format them into a javascript array.
 
 I then had them programatically put into the QR Code creator and make a barcode for each of them.
